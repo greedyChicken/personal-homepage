@@ -1,20 +1,14 @@
+import { Container } from "./components/Container";
+import Header from "./components/Header";
+import Section from "./components/Section";
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container>
+      <Header />
+      <Section title={"My skillset"} />
+      <Section title={"What I want to learn next"} />
+    </Container>
   );
 }
 

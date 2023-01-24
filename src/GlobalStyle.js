@@ -3,7 +3,7 @@ import { createGlobalStyle } from "styled-components";
 export const GlobalStyle = createGlobalStyle`
     html {
         box-sizing: border-box;
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Inter', sans-serif;
         font-weight: 400;
     }
 
@@ -12,7 +12,6 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     body {
-        background-color: #eee;
-        margin: 0 30px 0;
+        background-color: ${({ theme }) => theme.color.whiteLilac};
     }
 `;

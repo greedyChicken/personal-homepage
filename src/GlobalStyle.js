@@ -12,6 +12,6 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     body {
-        background-color: ${({ theme }) => theme.color.whiteLilac};
+        background-color: ${({ theme }) => theme.color.background};
     }
 `;

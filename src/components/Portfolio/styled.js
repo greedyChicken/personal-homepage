@@ -18,14 +18,14 @@ export const Logo = styled.div`
 export const SectionName = styled.h2`
   font-weight: 900;
   font-size: 30px;
-  color: ${({ theme }) => theme.color.mineShaft};
+  color: ${({ theme }) => theme.color.title};
   line-height: 36px;
   letter-spacing: 0.05em;
 `;
 
 export const Subtitle = styled.h3`
   font-size: 20px;
-  color: ${({ theme }) => theme.color.mineShaft};
+  color: ${({ theme }) => theme.color.title};
   line-height: 140%;
   letter-spacing: 0.05em;
 `;
@@ -39,7 +39,7 @@ export const Projects = styled.div`
 
 export const Project = styled.div`
   border: 1px solid magenta;
-  background-color: ${({ theme }) => theme.color.white};
+  background-color: ${({ theme }) => theme.color.sectionBackground};
   padding: 56px;
   flex-grow: 1;
   border: 6px solid rgba(209, 213, 218, 0.3);
@@ -58,7 +58,7 @@ export const Box = styled.div`
 `;
 
 export const Title = styled.h3`
-  color: ${({ theme }) => theme.color.scienceBlue};
+  color: ${({ theme }) => theme.color.link};
   font-weight: 700;
   font-size: 24px;
   line-height: 29px;
@@ -67,7 +67,7 @@ export const Title = styled.h3`
 `;
 
 export const Description = styled.p`
-  color: ${({ theme }) => theme.color.slateGray};
+  color: ${({ theme }) => theme.color.text};
   font-size: 18px;
   line-height: 140%;
   letter-spacing: 0.05em;
@@ -75,12 +75,11 @@ export const Description = styled.p`
 `;
 
 export const Link = styled.a`
-  color: ${({ theme }) => theme.color.scienceBlue};
+  color: ${({ theme }) => theme.color.link};
   font-size: 18px;
   line-height: 140%;
   letter-spacing: 0.05em;
-  border-bottom: 1px solid ${({ theme }) => theme.color.scienceBlue};
-  /* margin: 0; */
+  border-bottom: 1px solid ${({ theme }) => theme.color.link};
 `;
 
 Project.Box = Box;

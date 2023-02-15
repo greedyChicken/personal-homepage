@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Caption = styled.caption`
   font-size: 12px;
   font-weight: 700;
-  color: ${({ theme }) => theme.color.slateGray};
+  color: ${({ theme }) => theme.color.text};
   width: 100px;
   text-align: left;
 `;
@@ -11,7 +11,7 @@ export const Caption = styled.caption`
 export const Name = styled.h1`
   font-size: 38px;
   font-weight: 900;
-  color: ${({ theme }) => theme.color.mineShaft};
+  color: ${({ theme }) => theme.color.title};
   margin-top: 12px;
 `;
 
@@ -27,8 +27,8 @@ export const Button = styled.button`
   align-items: center;
   padding: 12px 16px;
   gap: 16px;
-  color: ${({ theme }) => theme.color.white};
-  background-color: ${({ theme }) => theme.color.scienceBlue};
+  color: ${({ theme }) => theme.color.sectionBackground};
+  background-color: ${({ theme }) => theme.color.link};
   border: 1px solid rgba(209, 213, 218, 0.3);
   border-radius: 4px;
   font-size: 20.0584px;

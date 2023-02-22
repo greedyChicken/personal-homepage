@@ -8,6 +8,9 @@ export const theme = {
       portfolioItemTitle: "#0366D6",
       link: "#0366D6",
       titleBorder: "#D1D5DA",
+      projectBorder: "rgba(209, 213, 218, 0.3)",
+      projectBorderHover: "rgba(3, 102, 214, 0.2)",
+      socialMedia: "#252525",
     },
   },
   darkMode: {
@@ -19,6 +22,9 @@ export const theme = {
       portfolioItemTitle: "#FFFFFF",
       link: "#2188FF",
       titleBorder: "#E5E5E5",
+      projectBorder: "rgba(209, 213, 218, 0.1)",
+      projectBorderHover: "rgba(3, 102, 214, 0.5)",
+      socialMedia: "#FFFFFF",
     },
   },
 

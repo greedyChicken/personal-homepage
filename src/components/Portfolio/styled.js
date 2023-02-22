@@ -38,15 +38,18 @@ export const Projects = styled.div`
 `;
 
 export const Project = styled.div`
-  border: 1px solid magenta;
   background-color: ${({ theme }) => theme.color.sectionBackground};
   padding: 56px;
   flex-grow: 1;
-  border: 6px solid rgba(209, 213, 218, 0.3);
+  border: 6px solid ${({ theme }) => theme.color.projectBorder};
   box-shadow: 0px -2px 50px rgba(9, 10, 51, 0.02),
     0px 16px 58px rgba(9, 10, 51, 0.03);
   border-radius: 4px;
   max-height: 320px;
+
+  &:hover {
+    border: 6px solid ${({ theme }) => theme.color.projectBorderHover};
+  }
 `;
 
 export const Box = styled.div`

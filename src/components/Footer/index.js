@@ -1,5 +1,12 @@
 import { Caption } from "../Header/styled";
-import { Description, Email, Media, StyledFooter } from "./styled";
+import {
+  Description,
+  Email,
+  Github,
+  Logo,
+  Media,
+  StyledFooter,
+} from "./styled";
 
 const Footer = () => {
   return (
@@ -12,8 +19,9 @@ const Footer = () => {
         ideas come to life, feel free to conatct me
       </Description>
       <Media>
-        <span>logo1</span>
-        <span>logo2</span>
+        <Logo href="https://github.com/greedyChicken" target="_blank">
+          <Github />
+        </Logo>
       </Media>
     </StyledFooter>
   );

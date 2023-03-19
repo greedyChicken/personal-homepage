@@ -38,9 +38,15 @@ const Portfolio = () => {
                   {repo.homepage && (
                     <div>
                       <Project.LinkPrefix>Demo: </Project.LinkPrefix>
-                      <Project.Link href={repo.homepage} target="_blank">
-                        demo link
-                      </Project.Link>
+                      {repo.name === "personal-homepage" ? (
+                        <Project.LinkPrefix>
+                          You're here, welcome!{" "}
+                        </Project.LinkPrefix>
+                      ) : (
+                        <Project.Link href={repo.homepage} target="_blank">
+                          demo link
+                        </Project.Link>
+                      )}
                     </div>
                   )}
                   <div>

@@ -12,9 +12,9 @@ const Header = () => {
         <Caption>this is</Caption>
         <Name>Jan Hickiewicz</Name>
         <Description>
-          I’m a computer science student with interests in frontend development,
-          especially in React.js library. Currently looking for new job
-          opportunities.
+          I’m a computer science student with interests in fullstack
+          development, especially in Java and Javascript. Currently looking for
+          new job opportunities.
         </Description>
         <PrimaryButton href={`mailto:${Email}`} title={Email}>
           <ButtonIcon />

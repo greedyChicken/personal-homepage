@@ -1,0 +1,30 @@
+export const skills = [
+  "HTML",
+  "CSS (grid, flexbox)",
+  "SCSS",
+  "Responsive Web Design",
+  "Javascript ES6+",
+  "NPM",
+  "React Hooks",
+  "React Router",
+  "Working with API",
+  "Local storage",
+  "Redux",
+  "Redux Saga",
+  "Java",
+  "OOP",
+  "Linux, bash",
+  "Git",
+  "Github Pull Requests",
+  "Trello",
+  "Jira",
+  "Scrum",
+  "Teamwork",
+];
+
+export const futureSkills = [
+  "React Context",
+  "React Query",
+  "Typescript",
+  "Node.js",
+];

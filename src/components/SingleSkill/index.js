@@ -11,4 +11,9 @@ export const SingleSkill = styled.li`
     color: ${({ theme }) => theme.color.link};
     padding-right: 16px;
   }
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
+    font-size: 14px;
+    line-height: 17px;
+  }
 `;

@@ -22,4 +22,9 @@ export const PrimaryButton = styled.a`
   &:active {
     box-shadow: inset 0px 2px 0px rgba(20, 70, 32, 0.2);
   }
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
+    font-size: 18px;
+    line-height: 22px;
+  }
 `;

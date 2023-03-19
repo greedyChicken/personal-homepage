@@ -1,5 +1,12 @@
+const common = {
+  breakpoint: {
+    mobile: "500px",
+  },
+};
+
 export const theme = {
   lightMode: {
+    ...common,
     color: {
       background: "#FBFBFE",
       title: "#252525",
@@ -21,6 +28,7 @@ export const theme = {
     },
   },
   darkMode: {
+    ...common,
     color: {
       background: "#252525",
       title: "#FFFFFF",

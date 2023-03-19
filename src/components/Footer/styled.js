@@ -8,6 +8,12 @@ export const StyledFooter = styled.section`
   gap: 24px;
   margin: 120px 0 109px;
   max-width: 55%;
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
+    gap: 12px;
+    max-width: 100%;
+    margin: 48px 0 31px;
+  }
 `;
 
 export const Email = styled.span`
@@ -19,6 +25,11 @@ export const Email = styled.span`
   &:hover {
     color: ${({ theme }) => theme.color.link};
   }
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
+    font-size: 18px;
+    line-height: 22px;
+  }
 `;
 
 export const Description = styled.p`
@@ -26,6 +37,11 @@ export const Description = styled.p`
   line-height: 140%;
   color: ${({ theme }) => theme.color.title};
   margin: 0;
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
+    font-size: 14px;
+    line-height: 17px;
+  }
 `;
 
 export const Media = styled.div`
@@ -41,6 +57,11 @@ export const Logo = styled.a`
   margin: 0;
   width: 48px;
   height: 48px;
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
+    width: 32px;
+    height: 32px;
+  }
 `;
 
 export const Github = styled(GithubIcon)`

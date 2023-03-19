@@ -1,10 +1,11 @@
 import React from "react";
-import { StyledSection, Title } from "./styled";
+import { SkillsList, StyledSection, Title } from "./styled";
 
-const Section = ({ title }) => {
+const Section = ({ title, children }) => {
   return (
     <StyledSection>
       <Title>{title}</Title>
+      <SkillsList>{children}</SkillsList>
     </StyledSection>
   );
 };

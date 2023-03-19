@@ -1,11 +1,18 @@
 import styled from "styled-components";
 
-export const Caption = styled.caption`
+export const StyledHeader = styled.header`
+  display: flex;
+  gap: 66px;
+`;
+
+export const Caption = styled.span`
   font-size: 12px;
   font-weight: 700;
   color: ${({ theme }) => theme.color.text};
   width: 100px;
   text-align: left;
+  text-transform: uppercase;
+  letter-spacing: initial;
 `;
 
 export const Name = styled.h1`
@@ -19,23 +26,12 @@ export const Description = styled.p`
   font-size: 20px;
   font-weight: 400;
   margin: 32px 0;
+  color: ${({ theme }) => theme.color.text};
 `;
 
-export const Button = styled.button`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 12px 16px;
-  gap: 16px;
-  color: ${({ theme }) => theme.color.sectionBackground};
-  background-color: ${({ theme }) => theme.color.link};
-  border: 1px solid rgba(209, 213, 218, 0.3);
-  border-radius: 4px;
-  font-size: 20.0584px;
-  font-weight: 600;
-
-  &:focus {
-    box-shadow: 2px -2px 0px #8cc2ff, -2px 2px 0px #8cc2ff, 2px 2px 0px #8cc2ff,
-      -2px -2px 0px #8cc2ff;
-  }
+export const Photo = styled.img`
+  width: 398px;
+  height: 398px;
+  border-radius: 50%;
+  margin: 0;
 `;
